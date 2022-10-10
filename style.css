@@ -1,20 +1,28 @@
-#top {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
+    padding: 10px 0;
 }
-#logo{
-    color: #F9FAF8;
-        font-size: 18px;
+.header-logo {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
 }
-.main {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bolder;
+.links {
+    display: flex;
+    justify-content: flex-end;
 }
-.hlink {
-    color: #E5E7EB;
-    font-size: 18px;
+.link-three {
+    margin-left: 20px;
 }
-#butone {
-    color: #3882F6;
+.link-two {
+    margin-left: 20px;
 }
