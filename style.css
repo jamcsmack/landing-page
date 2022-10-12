@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .menu-container {
     display: flex;
     justify-content: center;
+    height: 50px;
     background-color: #1F2937;
     color: white;
     padding: 10px 0;
@@ -14,15 +16,79 @@
     width: 900px;
     display: flex;
     justify-content: space-between;
+    margin-left: 30px;
     
 }
 .links {
     display: flex;
     justify-content: flex-end;
+    color: white;
 }
 .link-three {
     margin-left: 20px;
 }
 .link-two {
     margin-left: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 400px;
+    background-color: #1F2937;
+    color: white;
+
+    
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.hero-head {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;  
+    font-size: 28px;
+    font-weight: bolder;
+    width: 450px;
+
+}
+.txt {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 18px;
+    width: 600px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: black;
+}
+.button {
+    background-color: #3882F6;
+    color: white;
+    size: 24px;
+    padding: 12px 28px;
+    border-radius: 8px;
+
+}
+.phot-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 200px;
+}
+img {
+    display: flex;
+    padding-left: 150px;
+    width: 600px;
+    height: auto;
 }
