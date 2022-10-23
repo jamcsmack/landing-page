@@ -22,13 +22,23 @@
 .links {
     display: flex;
     justify-content: flex-end;
+}
+.link-one {
+    display: flex;
     color: white;
+    width: 150px;
 }
 .link-three {
+    display: flex;
     margin-left: 20px;
+    color: white;
+    width: 150px;
 }
 .link-two {
+    display: flex;
     margin-left: 20px;
+    color: white;
+    width: 150px;
 }
 .hero {
     display: flex;
